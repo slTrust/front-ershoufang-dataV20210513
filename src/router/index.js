@@ -84,6 +84,18 @@ export const constantRoutes = [
     ]
   },
   {
+    path: '/house_graph',
+    component: Layout,
+    children: [
+      {
+        path: 'index',
+        component: () => import('@/views/house/graph'),
+        name: 'HouseGraph',
+        meta: { title: '市区街关系图谱', icon: 'user', noCache: true }
+      }
+    ]
+  },
+  {
     path: '/documentation',
     component: Layout,
     children: [
