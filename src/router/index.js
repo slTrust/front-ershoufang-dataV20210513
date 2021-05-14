@@ -86,12 +86,24 @@ export const constantRoutes = [
   {
     path: '/house_graph',
     component: Layout,
+    redirect: '/index',
+    name: '',
+    meta: {
+      title: '房屋信息可视化',
+      icon: 'chart'
+    },
     children: [
       {
         path: 'index',
         component: () => import('@/views/house/graph'),
         name: 'HouseGraph',
         meta: { title: '市区街关系图谱', icon: 'user', noCache: true }
+      },
+      {
+        path: 'pie',
+        component: () => import('@/views/house/city_house'),
+        name: 'HouseGraph',
+        meta: { title: '天津各区房价分布', icon: 'user', noCache: true }
       }
     ]
   },

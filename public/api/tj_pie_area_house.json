@@ -1,0 +1,167 @@
+{
+	"status": "ok",
+	"msg": "获取成功",
+	"data": [{
+			"code": "heping",
+			"max_price": 453075,
+			"min_price": 9213,
+			"name": "和平",
+			"count": 4777,
+			"avg_price": 65886.638267,
+		  "id": 1
+		},
+		{
+			"code": "nankai",
+			"max_price": 132531,
+			"min_price": 9521,
+			"name": "南开",
+			"count": 12186,
+			"avg_price": 33626.312079,
+		  "id": 2
+		},
+		{
+			"code": "hexi",
+			"max_price": 256855,
+			"min_price": 6163,
+			"name": "河西",
+			"count": 11026,
+			"avg_price": 36939.251678,
+		  "id": 3
+		},
+		{
+			"code": "hebei",
+			"max_price": 130435,
+			"min_price": 8383,
+			"name": "河北",
+			"count": 11074,
+			"avg_price": 24133.891728,
+		  "id": 4
+		},
+		{
+			"code": "hedong",
+			"max_price": 115699,
+			"min_price": 6642,
+			"name": "河东",
+			"count": 13670,
+			"avg_price": 24449.336796,
+		  "id": 5
+		},
+		{
+			"code": "hongqiao",
+			"max_price": 106478,
+			"min_price": 8822,
+			"name": "红桥",
+			"count": 10010,
+			"avg_price": 22833.077223,
+		  "id": 6
+		},
+		{
+			"code": "xiqing",
+			"max_price": 128113,
+			"min_price": 5597,
+			"name": "西青",
+			"count": 10262,
+			"avg_price": 23877.24771,
+		  "id": 7
+		},
+		{
+			"code": "beichen",
+			"max_price": 46845,
+			"min_price": 4216,
+			"name": "北辰",
+			"count": 6011,
+			"avg_price": 17975.296956,
+		  "id": 8
+		},
+		{
+			"code": "dongli",
+			"max_price": 72973,
+			"min_price": 5910,
+			"name": "东丽",
+			"count": 9651,
+			"avg_price": 15525.456222,
+		  "id": 9
+		},
+		{
+			"code": "jinnan",
+			"max_price": 89987,
+			"min_price": 4896,
+			"name": "津南",
+			"count": 5774,
+			"avg_price": 21467.533426,
+		  "id": 10
+		},
+		{
+			"code": "tanggu",
+			"max_price": 40622,
+			"min_price": 4587,
+			"name": "塘沽",
+			"count": 6634,
+			"avg_price": 14842.270425,
+		  "id": 11
+		},
+		{
+			"code": "kaifaqutj",
+			"max_price": 66471,
+			"min_price": 9303,
+			"name": "开发区",
+			"count": 1450,
+			"avg_price": 21826.074483,
+		  "id": 12
+		},
+		{
+			"code": "wuqing",
+			"max_price": 76243,
+			"min_price": 3773,
+			"name": "武清",
+			"count": 12893,
+			"avg_price": 15043.909796,
+		  "id": 13
+		},
+		{
+			"code": "binhaixinqu",
+			"max_price": 41247,
+			"min_price": 2831,
+			"name": "滨海新区",
+			"count": 7299,
+			"avg_price": 12280.624332,
+		  "id": 14
+		},
+		{
+			"code": "baodi",
+			"max_price": 26232,
+			"min_price": 3859,
+			"name": "宝坻",
+			"count": 3810,
+			"avg_price": 10170.052231,
+		  "id": 15
+		},
+		{
+			"code": "jizhou",
+			"max_price": 31408,
+			"min_price": 4642,
+			"name": "蓟州",
+			"count": 1719,
+			"avg_price": 11752.242001,
+		  "id": 16
+		},
+		{
+			"code": "haihejiaoyuyuanqu",
+			"max_price": 46681,
+			"min_price": 5593,
+			"name": "海河教育园区",
+			"count": 5662,
+			"avg_price": 13336.895443,
+		  "id": 17
+		},
+		{
+			"code": "jinghai",
+			"max_price": 47343,
+			"min_price": 3280,
+			"name": "静海",
+			"count": 1007,
+			"avg_price": 12133.60576,
+		  "id": 18
+		}
+	]
+}
