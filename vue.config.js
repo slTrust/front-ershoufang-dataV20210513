@@ -36,7 +36,18 @@ module.exports = {
       warnings: false,
       errors: true
     },
-    before: require('./mock/mock-server.js')
+    before: require('./mock/mock-server.js'),
+    proxy:{
+      '/spring-boot-api':{
+        // spring-boot 开启后的默认 端口地址
+        target:'http://localhost:8080',
+        secure:false,
+        changeOrigin:true,
+        pathRewrite:{
+          '^/spring-boot-api':'/'
+        }
+      }
+    }
   },
   configureWebpack: {
     // provide the app's title in webpack's name field, so that
